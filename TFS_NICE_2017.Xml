@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tfs>
+  <Servers >
+    <Server ServerName="Production" ServerPath="http://tlvtfs15nlbprd:8080/tfs/" />
+    <Server ServerName="TEST" ServerPath="http://tlvtfs15nlbtst:8080/tfs/" />
+  </Servers>
+  <Groups >
+    <Group GroupName="APA" CollectionName="PTU_COLLECTION">
+	  <Project ProjectName="NIM" />
+	  <Project ProjectName="RTI" />
+	  <Project ProjectName="DEPLOYMENT" />
+	  <Project ProjectName="SENTINEL" />
+	</Group>
+	<Group GroupName="AVI" CollectionName="MIS_COLLECTION">
+	  <Project ProjectName="consist" />
+	</Group>
+  </Groups>
+  <LocalFolder Path=""/>
+</Tfs> 

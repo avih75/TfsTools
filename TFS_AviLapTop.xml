@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tfs>
+  <Servers >
+    <Server ServerName="Production" ServerPath="http://desktop-r6g69mj:8080/tfs/" />
+  </Servers>
+  <Groups >
+    <Group GroupName="APA" CollectionName="DefaultCollection">
+	  <Project ProjectName="shayki_projects_tests" />
+	  <Project ProjectName="RTI" />
+	</Group>
+	<Group GroupName="AVI" CollectionName="AviCollection">
+	  <Project ProjectName="TES" />
+	</Group>
+  </Groups>
+  <LocalFolder Path="C:\Users\AVI\Desktop"/>
+</Tfs>

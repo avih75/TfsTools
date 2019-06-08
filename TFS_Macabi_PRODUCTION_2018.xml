@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tfs>
+  <Servers >
+    <Server ServerName="Production" ServerPath="http://tfs-app:8080/tfs/" /> 
+  </Servers>
+  <Groups >
+    <Group GroupName="Group1" CollectionName="eWave.NET">
+	  <Project ProjectName="MaccabiDigital" /> 
+	</Group>
+	<Group GroupName="Group2" CollectionName="Maccabi2008Collection">
+	  <Project ProjectName="ALM" /> 
+	</Group>
+	<Group GroupName="Group3" CollectionName="MaccabiDefaultCollection">
+	  <Project ProjectName="CRM" /> 
+	</Group>
+  </Groups>
+</Tfs> 
